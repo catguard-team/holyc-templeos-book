@@ -1,0 +1,199 @@
+[
+  {
+    "id": "S01",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Charter.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S02",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Welcome.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S03",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/FAQ.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S04",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HolyC.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S05",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HelloWorld.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S06",
+    "url": "https://templeos.org/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S07",
+    "url": "https://usesthis.com/interviews/terry.davis/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S08",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Requirements.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S09",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Install.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S10",
+    "url": "https://www.qemu.org/docs/master/system/invocation.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S11",
+    "url": "https://docs.getutm.app/settings-qemu/system/",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S12",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/CmdLineOverview.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S13",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HelpIndex.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S14",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/MemOverview.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S15",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KernelC.HH",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verified_in_cloned_commit": true,
+    "verification_url": "https://raw.githubusercontent.com/cia-foundation/TempleOS/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KernelC.HH",
+    "verification_status": "200",
+    "verification_sha256": "d96d3a3364e81724e0b43cc37a0733d85654779b231e145cc5eb889aa4ac2fca"
+  },
+  {
+    "id": "S16",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/RedSea.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S17",
+    "url": "https://tinkeros.github.io/WbTempleOS/LiveHelp/God.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S18",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/GraphicsOverview.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S19",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrBitMap.HC",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verified_in_cloned_commit": true,
+    "verification_url": "https://raw.githubusercontent.com/cia-foundation/TempleOS/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrBitMap.HC",
+    "verification_status": "200",
+    "verification_sha256": "c34892e2b69e96b8b3d8728c8433a4f324b60e592a403c8db097709c129b2974"
+  },
+  {
+    "id": "S20",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrPrimatives.HC",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verified_in_cloned_commit": true,
+    "verification_url": "https://raw.githubusercontent.com/cia-foundation/TempleOS/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrPrimatives.HC",
+    "verification_status": "200",
+    "verification_sha256": "53a03adae44cb88d1d621a0b3713e6637ba45e5194b878e63bc5ac732954c978"
+  },
+  {
+    "id": "S21",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/Sched.HC",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verified_in_cloned_commit": true,
+    "verification_url": "https://raw.githubusercontent.com/cia-foundation/TempleOS/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/Sched.HC",
+    "verification_status": "200",
+    "verification_sha256": "57647b45027b11a4cbdedf8c4221450a714f740b4dcde52ed0224f8425fcb5fa"
+  },
+  {
+    "id": "S22",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Snd.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S23",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/DolDocOverview.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S24",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Sprite.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S25",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Demo/Graphics/Box.HC",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verified_in_cloned_commit": true,
+    "verification_url": "https://raw.githubusercontent.com/cia-foundation/TempleOS/c26482bb6ad3f80106d28504ec5db3c6a360732c/Demo/Graphics/Box.HC",
+    "verification_status": "200",
+    "verification_sha256": "43ea2bad24e51886412f762999f4e70bc606d7f1877ef945eb11443c1e027e0a"
+  },
+  {
+    "id": "S26",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/CompilerOverview.html",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "id": "S27",
+    "url": "https://github.com/Zeal-Operating-System/ZealOS",
+    "status": "504",
+    "error": "",
+    "verification_error": "",
+    "verification_url": "https://raw.githubusercontent.com/Zeal-Operating-System/ZealOS/master/README.md",
+    "verification_status": "200",
+    "verification_sha256": "b7e179b70888bf25bbea6f9262d7d767a0020a3987741caaac2964c7f7dbd272"
+  },
+  {
+    "id": "S28",
+    "url": "https://templeos.org/Downloads/",
+    "status": "200",
+    "error": ""
+  }
+]

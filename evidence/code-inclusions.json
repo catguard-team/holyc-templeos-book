@@ -1,0 +1,177 @@
+[
+  {
+    "file": "HELLO.HC",
+    "start": 1,
+    "end": 2,
+    "sha256": "2b4ee07febcf98a94d648d6f96191fbe636f0f5676df98133e1e56e1586c7899",
+    "text": "\"Hello, TempleOS!\\n\";\n\"Peace be with you.\\n\";\n"
+  },
+  {
+    "file": "VALUES.HC",
+    "start": 1,
+    "end": 10,
+    "sha256": "77636862b8af4b18796f6b04a99a72074ccb24c76ba515c21696be71ae94e89a",
+    "text": "U0 Values()\n{\n  I64 candles=7;\n  I64 rows=3;\n  F64 length=2.5;\n  \"Candles: %d\\n\",candles;\n  \"Total: %d\\n\",candles*rows;\n  \"Length: %.2f\\n\",length;\n}\nValues;\n"
+  },
+  {
+    "file": "TYPES.HC",
+    "start": 1,
+    "end": 11,
+    "sha256": "f88405bd01bca2b9be58cd5712d10b45701a4ae2d3a51685afbfcd6d43368f7c",
+    "text": "U0 Types()\n{\n  I64 whole=7/2;\n  F64 fraction=7.0/2.0;\n  \"I64 bytes: %d\\n\",sizeof(I64);\n  \"U8 bytes: %d\\n\",sizeof(U8);\n  \"Integer: %d\\n\",whole;\n  \"Fraction: %.1f\\n\",fraction;\n  \"Remainder: %d\\n\",7%2;\n}\nTypes;\n"
+  },
+  {
+    "file": "CHOICE.HC",
+    "start": 1,
+    "end": 12,
+    "sha256": "c8650b55a4dec05e08af609c60145c3ce360fa26127e885ce2ec0b54cdd22ac3",
+    "text": "U0 Choice()\n{\n  I64 lamps=3;\n  if (lamps>0) {\n    \"The room has light.\\n\";\n  } else {\n    \"Light a lamp.\\n\";\n  }\n  if (1<=lamps<=7)\n    \"Between one and seven.\\n\";\n}\nChoice;\n"
+  },
+  {
+    "file": "LOOPS.HC",
+    "start": 1,
+    "end": 9,
+    "sha256": "bb9b12212cc2efe21bbc529dfb1a131ee8358cf82f59a900ab3c6fd2fcb3a8b3",
+    "text": "U0 Steps()\n{\n  I64 i,total=0;\n  for (i=1;i<=7;i++) {\n    total+=i;\n    \"Step %d, total %d\\n\",i,total;\n  }\n}\nSteps;\n"
+  },
+  {
+    "file": "FUNCS.HC",
+    "start": 1,
+    "end": 11,
+    "sha256": "7d8c6c3f9cd49a770f39850648e4de2d3ee41ae7849893999d92296be81307fd",
+    "text": "I64 Square(I64 n)\n{\n  return n*n;\n}\nU0 Greet(U8 *name=\"friend\")\n{\n  \"Peace, %s.\\n\",name;\n}\nGreet;\nGreet(\"Terry\");\n\"Square: %d\\n\",Square(4);\n"
+  },
+  {
+    "file": "ARRAYS.HC",
+    "start": 1,
+    "end": 15,
+    "sha256": "fc49aa05794c00a821d6562b4b5f815e24576519f14d9fe9cbb41a40c8f2f5ad",
+    "text": "U0 Seeds()\n{\n  I64 count[4];\n  count[0]=2;\n  count[1]=3;\n  count[2]=5;\n  count[3]=7;\n  I64 i,total=0;\n  for (i=0;i<4;i++) {\n    \"Bed %d: %d\\n\",i,count[i];\n    total+=count[i];\n  }\n  \"All seeds: %d\\n\",total;\n}\nSeeds;\n"
+  },
+  {
+    "file": "STRINGS.HC",
+    "start": 1,
+    "end": 11,
+    "sha256": "8f50a7ba5421c494a5b37aee8be330303cdae4298062b461774ae0bfebf96d6f",
+    "text": "U0 Words()\n{\n  U8 text[16];\n  StrCpy(text,\"PEACE\");\n  \"Before: %s\\n\",text;\n  \"Length: %d\\n\",StrLen(text);\n  \"First: %c\\n\",text[0];\n  text[0]='p';\n  \"After: %s\\n\",text;\n}\nWords;\n"
+  },
+  {
+    "file": "POINTER.HC",
+    "start": 1,
+    "end": 9,
+    "sha256": "39f715b159d273d8bed311c06dcb2b20a1b4be69bb11007b6f6a91104f66aef4",
+    "text": "U0 PointerLesson()\n{\n  I64 lamp=3;\n  I64 *address=&lamp;\n  \"Before: %d\\n\",lamp;\n  *address=7;\n  \"After: %d\\n\",lamp;\n}\nPointerLesson;\n"
+  },
+  {
+    "file": "RECORD.HC",
+    "start": 1,
+    "end": 15,
+    "sha256": "1eae0388b12882887c95a50a4860ccbde32e648cfbba2c59a8949bf9ecf5cbca",
+    "text": "class CLamp\n{\n  I64 x,y;\n  Bool lit;\n};\nU0 RecordLesson()\n{\n  CLamp lamp;\n  lamp.x=120;\n  lamp.y=80;\n  lamp.lit=TRUE;\n  \"Lamp: %d,%d lit=%d\\n\",\n    lamp.x,lamp.y,lamp.lit;\n}\nRecordLesson;\n"
+  },
+  {
+    "file": "HEAP.HC",
+    "start": 1,
+    "end": 13,
+    "sha256": "9b1a00b5fe17dade66cf0151ed695717857c19d3bbab42782cc4d6a2b487d8d3",
+    "text": "U0 HeapLesson()\n{\n  I64 i;\n  I64 *values=MAlloc(4*sizeof(I64));\n  if (!values)\n    return;\n  for (i=0;i<4;i++)\n    values[i]=i*i;\n  \"Last: %d\\n\",values[3];\n  Free(values);\n  values=NULL;\n}\nHeapLesson;\n"
+  },
+  {
+    "file": "SAVE.HC",
+    "start": 1,
+    "end": 8,
+    "sha256": "876d2c8d91d35b2e428744bca0a3a18c4693c429967285a799125339baab2358",
+    "text": "U0 SaveNote()\n{\n  U8 *text=\"A small work, made with care.\\n\";\n  I64 size=StrLen(text);\n  FileWrite(\"NOTE.TXT\",text,size);\n  \"Requested bytes: %d\\n\",size;\n}\nSaveNote;\n"
+  },
+  {
+    "file": "READ.HC",
+    "start": 1,
+    "end": 14,
+    "sha256": "cb1e2d6fcb516626bda1f73be28836b24ac19ac7d63f86a4c5516735bda124aa",
+    "text": "U0 ReadNote()\n{\n  I64 size=0,i;\n  U8 *text=FileRead(\"NOTE.TXT\",&size);\n  if (!text) {\n    \"Run SAVE.HC first.\\n\";\n    return;\n  }\n  \"Read bytes: %d\\n\",size;\n  for (i=0;i<size;i++)\n    \"%c\",text[i];\n  Free(text);\n}\nReadNote;\n"
+  },
+  {
+    "file": "INPUT.HC",
+    "start": 1,
+    "end": 9,
+    "sha256": "7c1b9bde5feedd8f298f9e5e1c415eee790d1c116c24d7c3f59ffd32f4888d76",
+    "text": "U0 SayHello()\n{\n  U8 *name=GetStr(\"Your name: \");\n  if (name) {\n    \"Hello, %s.\\n\",name;\n    Free(name);\n  }\n}\nSayHello;\n"
+  },
+  {
+    "file": "DICE.HC",
+    "start": 1,
+    "end": 9,
+    "sha256": "74d31206ba1ab3120cc45e384d0ea31fd2f06ab5206f9e77a86843396989db01",
+    "text": "U0 SixNumbers()\n{\n  I64 i,value;\n  for (i=0;i<6;i++) {\n    value=1+RandU32%6;\n    \"%d\\n\",value;\n  }\n}\nSixNumbers;\n"
+  },
+  {
+    "file": "SHAPES.HC",
+    "start": 1,
+    "end": 17,
+    "sha256": "2a075c5fd9e0d8bddc710de03ae5624ecb479548db186e629ac66969e38ce51f",
+    "text": "U0 Shapes()\n{\n  CDC *dc=DCAlias;\n  DCFill(dc,WHITE);\n  dc->color=BLUE;\n  GrRect(dc,40,60,100,60);\n  dc->color=RED;\n  GrCircle(dc,190,90,30);\n  dc->color=GREEN;\n  GrLine(dc,40,150,220,150);\n  dc->color=BLACK;\n  GrPrint(dc,40,180,\"Peace\");\n  GetChar;\n  DCFill(dc);\n  DCDel(dc);\n}\nShapes;\n"
+  },
+  {
+    "file": "PALETTE.HC",
+    "start": 1,
+    "end": 15,
+    "sha256": "ba93b9111d564dff0d3573d58183f382f701e76d65bc6328e8e00e635d0bde9e",
+    "text": "U0 PaletteLesson()\n{\n  I64 i;\n  CDC *dc=DCAlias;\n  DCFill(dc,WHITE);\n  for (i=0;i<16;i++) {\n    dc->color=i;\n    GrRect(dc,20+(i%4)*55,\n      30+(i/4)*45,45,35);\n  }\n  GetChar;\n  DCFill(dc);\n  DCDel(dc);\n}\nPaletteLesson;\n"
+  },
+  {
+    "file": "LIGHT.HC",
+    "start": 1,
+    "end": 19,
+    "sha256": "880c0d1bcd8b69d7255fb575a074b34b679d81fe418f41820fae5faa8bb0040c",
+    "text": "U0 LightDrawing(CTask *task,CDC *dc)\n{\n  I64 x=task->pix_width/2;\n  I64 y=task->pix_height/2;\n  dc->color=YELLOW;\n  GrCircle(dc,x,y,45);\n  dc->color=BLUE;\n  GrRect(dc,x-4,y-30,9,60);\n  GrRect(dc,x-24,y-15,49,8);\n}\nU0 LightWindow()\n{\n  SettingsPush;\n  DocClear;\n  Fs->draw_it=&LightDrawing;\n  GetChar;\n  SettingsPop;\n}\nLightWindow;\n"
+  },
+  {
+    "file": "ANIMATE.HC",
+    "start": 1,
+    "end": 19,
+    "sha256": "46c285c45c56e50f839766789da366ced620de284d0cf8859c0f2eaee86925f1",
+    "text": "I64 glow_x=30;\nU0 GlowDraw(CTask *,CDC *dc)\n{\n  dc->color=YELLOW;\n  GrCircle(dc,glow_x,90,12);\n}\nU0 Glow()\n{\n  I64 i;\n  SettingsPush;\n  DocClear;\n  Fs->draw_it=&GlowDraw;\n  for (i=0;i<60;i++) {\n    glow_x=30+i*3;\n    Sleep(30);\n  }\n  SettingsPop;\n}\nGlow;\n"
+  },
+  {
+    "file": "MOVE.HC",
+    "start": 1,
+    "end": 21,
+    "sha256": "dec8884b6486930e5e28536f394ceaad22b1c74f06a1bc9d7b336014c6a4cd10",
+    "text": "I64 pilgrim_x=100;\nU0 PilgrimDraw(CTask *,CDC *dc)\n{\n  dc->color=BLUE;\n  GrRect(dc,pilgrim_x,100,12,12);\n}\nU0 Pilgrim()\n{\n  I64 key;\n  SettingsPush;\n  DocClear;\n  Fs->draw_it=&PilgrimDraw;\n  \"A/D: move, Q: finish\\n\";\n  while ((key=GetChar(,FALSE))!='q') {\n    if (key=='a') pilgrim_x-=8;\n    if (key=='d') pilgrim_x+=8;\n    pilgrim_x=ClampI64(pilgrim_x,8,240);\n  }\n  SettingsPop;\n}\nPilgrim;\n"
+  },
+  {
+    "file": "TONE.HC",
+    "start": 1,
+    "end": 15,
+    "sha256": "635e58c1a3e732598e08095366a3c21358be201e7c7b3c5e6c691e3272a72218",
+    "text": "U0 ThreeTones()\n{\n  Snd(60);\n  Sleep(150);\n  Snd;\n  Sleep(100);\n  Snd(64);\n  Sleep(150);\n  Snd;\n  Sleep(100);\n  Snd(67);\n  Sleep(300);\n  Snd;\n}\nThreeTones;\n"
+  },
+  {
+    "file": "DOC.HC",
+    "start": 1,
+    "end": 7,
+    "sha256": "6c1da08b6192e450e52e629fbc115e458024eaae3035ae214982bd8896613d59",
+    "text": "U0 Letter()\n{\n  \"$$FG,BLUE$$A SMALL OFFERING$$FG$$\\n\";\n  \"Make something with care.\\n\";\n  \"$$UL,1$$Read. Change. Share.$$UL,0$$\\n\";\n}\nLetter;\n"
+  },
+  {
+    "file": "TASKS.HC",
+    "start": 1,
+    "end": 9,
+    "sha256": "26c99c9e16eb5ff7d50da322e1f1521aa8ebf0a6d9c485d1653cccb75cedf776",
+    "text": "U0 CountSlowly()\n{\n  I64 i;\n  for (i=1;i<=5;i++) {\n    \"Count %d\\n\",i;\n    Sleep(250);\n  }\n}\nCountSlowly;\n"
+  },
+  {
+    "file": "GARDEN.HC",
+    "start": 1,
+    "end": 24,
+    "sha256": "c6044008e017b067aae3bded934469f6d0099f534f2503b703d1d8ba0967bb98",
+    "text": "#define GARDEN_COUNT 7\nI64 garden_lit=0;\n\nU0 GardenDraw(CTask *task,CDC *dc)\n{\n  I64 i,x,y;\n  I64 width=task->pix_width;\n  I64 height=task->pix_height;\n  dc->color=BLUE;\n  GrPrint(dc,16,20,\"A SMALL OFFERING\");\n  GrPrint(dc,16,40,\"1-7: lamps   R: reset   Q: leave\");\n  y=height/2;\n  for (i=0;i<GARDEN_COUNT;i++) {\n    x=(i+1)*width/(GARDEN_COUNT+1);\n    dc->color=LTGRAY;\n    GrRect(dc,x-6,y,13,40);\n    if (garden_lit & (1<<i))\n      dc->color=YELLOW;\n    else\n      dc->color=DKGRAY;\n    GrCircle(dc,x,y-12,9);\n    dc->color=BLUE;\n    GrPrint(dc,x-4,y+50,\"%d\",i+1);\n  }\n"
+  },
+  {
+    "file": "GARDEN.HC",
+    "start": 25,
+    "end": 44,
+    "sha256": "7e28dd350b3f7a51cf5998aed92c42672d2e18aff30ae0f793560d651aec3f03",
+    "text": "  dc->color=BLUE;\n  if (garden_lit==127)\n    GrPrint(dc,16,height-35,\"Peace be with you.\");\n}\n\nU0 Garden()\n{\n  I64 key;\n  SettingsPush;\n  DocClear;\n  Fs->draw_it=&GardenDraw;\n  while ((key=GetChar(,FALSE))!='q') {\n    if ('1'<=key<='7')\n      garden_lit^=1<<(key-'1');\n    if (key=='r')\n      garden_lit=0;\n  }\n  SettingsPop;\n}\nGarden;\n"
+  }
+]

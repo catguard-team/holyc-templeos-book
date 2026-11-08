@@ -1,0 +1,15 @@
+test_compressed_hash_failure (test_launcher.RestoreTests.test_compressed_hash_failure) ... ok
+test_concurrent_state_lock (test_launcher.RestoreTests.test_concurrent_state_lock) ... ok
+test_declared_size_limits_decompression (test_launcher.RestoreTests.test_declared_size_limits_decompression) ... ok
+test_existing_file_is_never_replaced (test_launcher.RestoreTests.test_existing_file_is_never_replaced) ... ok
+test_manifest_path_escape_is_rejected (test_launcher.RestoreTests.test_manifest_path_escape_is_rejected) ... ok
+test_original_iso_integrity (test_launcher.RestoreTests.test_original_iso_integrity) ... ok
+test_restore_exact_bytes_and_keep_modified_disk (test_launcher.RestoreTests.test_restore_exact_bytes_and_keep_modified_disk) ... ok
+test_symlink_disk_not_followed (test_launcher.RestoreTests.test_symlink_disk_not_followed) ... ok
+test_windows_command_quoting_and_machine (test_launcher.RestoreTests.test_windows_command_quoting_and_machine) ... ok
+test_wrong_raw_hash_leaves_no_disk (test_launcher.RestoreTests.test_wrong_raw_hash_leaves_no_disk) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.056s
+
+OK

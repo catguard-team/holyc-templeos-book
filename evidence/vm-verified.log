@@ -1,0 +1,160 @@
+READY
+START HELLO
+$WW+H,1$Hello, TempleOS!
+Peace be with you.
+
+END HELLO
+START VALUES
+$WW+H,1$Candles: 7
+Total: 21
+Length: 2.50
+
+END VALUES
+START TYPES
+$WW+H,1$I64 bytes: 8
+U8 bytes: 1
+Integer: 3
+Fraction: 3.5
+Remainder: 1
+
+END TYPES
+START CHOICE
+$WW+H,1$The room has light.
+Between one and seven.
+
+END CHOICE
+START LOOPS
+$WW+H,1$Step 1, total 1
+Step 2, total 3
+Step 3, total 6
+Step 4, total 10
+Step 5, total 15
+Step 6, total 21
+Step 7, total 28
+
+END LOOPS
+START FUNCS
+$WW+H,1$Peace, friend.
+Peace, Terry.
+Square: 16
+
+END FUNCS
+START ARRAYS
+$WW+H,1$Bed 0: 2
+Bed 1: 3
+Bed 2: 5
+Bed 3: 7
+All seeds: 17
+
+END ARRAYS
+START STRINGS
+$WW+H,1$Before: PEACE
+Length: 5
+First: P
+After: pEACE
+
+END STRINGS
+START POINTER
+$WW+H,1$Before: 3
+After: 7
+
+END POINTER
+START RECORD
+$WW+H,1$Lamp: 120,80 lit=1
+
+END RECORD
+START HEAP
+$WW+H,1$Last: 9
+
+END HEAP
+START SAVE
+$WW+H,1$Requested bytes: 30
+
+END SAVE
+START READ
+$WW+H,1$Read bytes: 30
+A small work, made with care.
+
+END READ
+START DICE
+$WW+H,1$2
+5
+4
+5
+1
+2
+
+END DICE
+START ANIMATE
+$WW+H,1$
+END ANIMATE
+START TONE
+$WW+H,1$
+END TONE
+START DOC
+$WW+H,1$$FG,1$A SMALL OFFERING$FG$
+Make something with care.
+$UL,1$Read. Change. Share.$UL,0$
+
+END DOC
+START TASKS
+$WW+H,1$Count 1
+Count 2
+Count 3
+Count 4
+Count 5
+
+END TASKS
+ALL NONINTERACTIVE DONE
+START INPUT
+$WW+H,1$0.000092s
+C:/>$PT$#include "INPUT.HC";
+$PT$$FG$$BG$Your name: $PT$Reader
+$PT$$FG$$BG$Hello, Reader.
+2.499665s
+C:/>$PT$BookDump;BookMark("END INPUT");
+$PT$$FG$$BG$
+END INPUT
+START SHAPES
+$WW+H,1$0.000121s
+C:/>$PT$#include "SHAPES.HC";
+$PT$$FG$$BG$$PT$
+$FG$1.030298s
+C:/>$PT$BookDump;BookMark("END SHAPES");
+$PT$$FG$$BG$
+END SHAPES
+START PALETTE
+$WW+H,1$0.000075s
+C:/>$PT$#include "PALETTE.HC";
+$PT$$FG$$BG$$PT$
+$FG$1.057057s
+C:/>$PT$BookDump;BookMark("END PALETTE");
+$PT$$FG$$BG$
+END PALETTE
+START LIGHT
+$WW+H,1$$PT$
+$FG$1.030203s
+C:/>$PT$BookDump;BookMark("END LIGHT");
+$PT$$FG$$BG$
+END LIGHT
+START MOVE
+$WW+H,1$A/D: move, Q: finish
+1.564994s
+C:/>$PT$BookDump;BookMark("END MOVE");
+$PT$$FG$$BG$
+END MOVE
+START GARDEN
+$WW+H,1$4.860309s
+C:/>$PT$"GARDEN STATE: %d\n",garden_lit;
+$PT$$FG$$BG$GARDEN STATE: 119
+0.000198s
+C:/>$PT$BookDump;BookMark("END GARDEN");
+$PT$$FG$$BG$
+END GARDEN
+$WW+H,1$1.305107s
+C:/>$PT$"RESET STATE: %d\n",garden_lit;
+$PT$$FG$$BG$RESET STATE: 0
+0.000124s
+C:/>$PT$BookDump;BookMark("ALL 24 DONE");
+$PT$$FG$$BG$
+ALL 24 DONE

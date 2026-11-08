@@ -1,0 +1,22 @@
+READY
+$WW+H,1$$FG,1$A SMALL OFFERING / HOLYC + TEMPLEOS$FG$
+
+24 complete examples are in C:/Home/Book.
+Type: #include "HELLO.HC";
+Then: #include "GARDEN.HC";
+Garden: 1-7 lamps, r reset, q quit.
+
+Save your own work in this folder.
+The host launcher keeps this disk between sessions.
+
+Read the Korean PDF or offline HTML on the host.
+0.000042s
+C:/Home/Book>$PT$#include "QA/CHECK.HC";
+$PT$$FG$$BG$0.000703s
+C:/Home/Book>$PT$#include "READ.HC";
+$PT$$FG$$BG$Read bytes: 30
+A small work, made with care.
+0.000796s
+C:/Home/Book>$PT$U8 *s=DocSave(DocPut); BookMark(s); Free(s);
+$PT$$FG$$BG$
+PERSISTENCE-OK

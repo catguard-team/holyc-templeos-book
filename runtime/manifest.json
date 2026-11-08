@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "guest": "TempleOS 5.03",
+  "factory_disk": {
+    "path": "runtime/TempleOS-book.img.gz",
+    "compressed_bytes": 44769155,
+    "compressed_sha256": "68cae56311a938155a7790920ef1448dde29fe76c86af1e29b70e68c77a3cc21",
+    "raw_bytes": 2147483648,
+    "raw_sha256": "6983ce261d57669abab47c60d8d5ebfd257ee34d1ffcc898119eceaaf2d1d019"
+  },
+  "boot_iso": {
+    "path": "archive/templeos/TempleOS.ISO",
+    "bytes": 17350656,
+    "sha256": "5d0fc944e5d89c155c0fc17c148646715bc1db6fa5750c0b913772cfec19ba26"
+  }
+}

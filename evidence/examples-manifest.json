@@ -1,0 +1,146 @@
+[
+  {
+    "file": "HELLO.HC",
+    "sha256": "2b4ee07febcf98a94d648d6f96191fbe636f0f5676df98133e1e56e1586c7899",
+    "lines": 2,
+    "bytes": 46
+  },
+  {
+    "file": "VALUES.HC",
+    "sha256": "77636862b8af4b18796f6b04a99a72074ccb24c76ba515c21696be71ae94e89a",
+    "lines": 10,
+    "bytes": 157
+  },
+  {
+    "file": "TYPES.HC",
+    "sha256": "f88405bd01bca2b9be58cd5712d10b45701a4ae2d3a51685afbfcd6d43368f7c",
+    "lines": 11,
+    "bytes": 208
+  },
+  {
+    "file": "CHOICE.HC",
+    "sha256": "c8650b55a4dec05e08af609c60145c3ce360fa26127e885ce2ec0b54cdd22ac3",
+    "lines": 12,
+    "bytes": 174
+  },
+  {
+    "file": "LOOPS.HC",
+    "sha256": "bb9b12212cc2efe21bbc529dfb1a131ee8358cf82f59a900ab3c6fd2fcb3a8b3",
+    "lines": 9,
+    "bytes": 115
+  },
+  {
+    "file": "FUNCS.HC",
+    "sha256": "7d8c6c3f9cd49a770f39850648e4de2d3ee41ae7849893999d92296be81307fd",
+    "lines": 11,
+    "bytes": 140
+  },
+  {
+    "file": "ARRAYS.HC",
+    "sha256": "fc49aa05794c00a821d6562b4b5f815e24576519f14d9fe9cbb41a40c8f2f5ad",
+    "lines": 15,
+    "bytes": 216
+  },
+  {
+    "file": "STRINGS.HC",
+    "sha256": "8f50a7ba5421c494a5b37aee8be330303cdae4298062b461774ae0bfebf96d6f",
+    "lines": 11,
+    "bytes": 177
+  },
+  {
+    "file": "POINTER.HC",
+    "sha256": "39f715b159d273d8bed311c06dcb2b20a1b4be69bb11007b6f6a91104f66aef4",
+    "lines": 9,
+    "bytes": 133
+  },
+  {
+    "file": "RECORD.HC",
+    "sha256": "1eae0388b12882887c95a50a4860ccbde32e648cfbba2c59a8949bf9ecf5cbca",
+    "lines": 15,
+    "bytes": 188
+  },
+  {
+    "file": "HEAP.HC",
+    "sha256": "9b1a00b5fe17dade66cf0151ed695717857c19d3bbab42782cc4d6a2b487d8d3",
+    "lines": 13,
+    "bytes": 201
+  },
+  {
+    "file": "SAVE.HC",
+    "sha256": "876d2c8d91d35b2e428744bca0a3a18c4693c429967285a799125339baab2358",
+    "lines": 8,
+    "bytes": 166
+  },
+  {
+    "file": "READ.HC",
+    "sha256": "cb1e2d6fcb516626bda1f73be28836b24ac19ac7d63f86a4c5516735bda124aa",
+    "lines": 14,
+    "bytes": 224
+  },
+  {
+    "file": "DICE.HC",
+    "sha256": "74d31206ba1ab3120cc45e384d0ea31fd2f06ab5206f9e77a86843396989db01",
+    "lines": 9,
+    "bytes": 114
+  },
+  {
+    "file": "INPUT.HC",
+    "sha256": "7c1b9bde5feedd8f298f9e5e1c415eee790d1c116c24d7c3f59ffd32f4888d76",
+    "lines": 9,
+    "bytes": 121
+  },
+  {
+    "file": "SHAPES.HC",
+    "sha256": "2a075c5fd9e0d8bddc710de03ae5624ecb479548db186e629ac66969e38ce51f",
+    "lines": 17,
+    "bytes": 286
+  },
+  {
+    "file": "PALETTE.HC",
+    "sha256": "ba93b9111d564dff0d3573d58183f382f701e76d65bc6328e8e00e635d0bde9e",
+    "lines": 15,
+    "bytes": 221
+  },
+  {
+    "file": "LIGHT.HC",
+    "sha256": "880c0d1bcd8b69d7255fb575a074b34b679d81fe418f41820fae5faa8bb0040c",
+    "lines": 19,
+    "bytes": 331
+  },
+  {
+    "file": "ANIMATE.HC",
+    "sha256": "46c285c45c56e50f839766789da366ced620de284d0cf8859c0f2eaee86925f1",
+    "lines": 19,
+    "bytes": 255
+  },
+  {
+    "file": "MOVE.HC",
+    "sha256": "dec8884b6486930e5e28536f394ceaad22b1c74f06a1bc9d7b336014c6a4cd10",
+    "lines": 21,
+    "bytes": 391
+  },
+  {
+    "file": "TONE.HC",
+    "sha256": "635e58c1a3e732598e08095366a3c21358be201e7c7b3c5e6c691e3272a72218",
+    "lines": 15,
+    "bytes": 156
+  },
+  {
+    "file": "DOC.HC",
+    "sha256": "6c1da08b6192e450e52e629fbc115e458024eaae3035ae214982bd8896613d59",
+    "lines": 7,
+    "bytes": 142
+  },
+  {
+    "file": "TASKS.HC",
+    "sha256": "26c99c9e16eb5ff7d50da322e1f1521aa8ebf0a6d9c485d1653cccb75cedf776",
+    "lines": 9,
+    "bytes": 106
+  },
+  {
+    "file": "GARDEN.HC",
+    "sha256": "bed67bea674dfe124fd9f271da7da299616242b51f39b8e59078b713aff76929",
+    "lines": 44,
+    "bytes": 907
+  }
+]

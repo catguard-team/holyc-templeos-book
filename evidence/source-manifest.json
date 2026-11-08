@@ -1,0 +1,187 @@
+{
+  "checked_on": "2026-11-08",
+  "commit": "c26482bb6ad3f80106d28504ec5db3c6a360732c",
+  "public_domain_notice": "https://templeos.org/",
+  "files": [
+    {
+      "path": "Doc/Charter.DD",
+      "sha256": "a5a91e35dcd931b9fa029f77038a059b51f2911e2f01dce782fcba29061e7ac8",
+      "bytes": 6726,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/Charter.DD"
+    },
+    {
+      "path": "Doc/Welcome.DD",
+      "sha256": "dd278da47d8e50eb5dc491f1a4e5dd87b088088976b64710b31f87e842acfcce",
+      "bytes": 15558,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/Welcome.DD"
+    },
+    {
+      "path": "Doc/FAQ.DD",
+      "sha256": "7cd0d46fe8b3eead7f10486041e6fbe7041d148da6622df2ef8449bfff0061ab",
+      "bytes": 14203,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/FAQ.DD"
+    },
+    {
+      "path": "Doc/HolyC.DD",
+      "sha256": "bacd70e46107b03949a3ded7459e1acb771ffbb1864e2b5ef9166d8a81bf10d6",
+      "bytes": 11719,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/HolyC.DD"
+    },
+    {
+      "path": "Doc/HelloWorld.DD",
+      "sha256": "82888063d799180af2001f9c81044c431a864eefcc021b2f5083ccdbed9a5c03",
+      "bytes": 1614,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/HelloWorld.DD"
+    },
+    {
+      "path": "Doc/Install.DD",
+      "sha256": "7326be57bdb948cfc55196d7f007a5b2b942d4e1a27f34caf1a9c975cf810c71",
+      "bytes": 4012,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/Install.DD"
+    },
+    {
+      "path": "Doc/Requirements.DD",
+      "sha256": "51e52b488487183c883aadebe585d25e62dbd241aba377b7e7393a3b5bb1100d",
+      "bytes": 782,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/Requirements.DD"
+    },
+    {
+      "path": "Doc/CmdLineOverview.DD",
+      "sha256": "baf5739e6538a94f05b850855bc57f3c191a242ce0cd27edd07087f20bac67eb",
+      "bytes": 2065,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/CmdLineOverview.DD"
+    },
+    {
+      "path": "Doc/HelpIndex.DD",
+      "sha256": "e89ee8cfcafabe35d9d7f8e6cf619b97dfa7833d11a2c60e879ad0f60fbb973c",
+      "bytes": 7037,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/HelpIndex.DD"
+    },
+    {
+      "path": "Doc/GraphicsOverview.DD",
+      "sha256": "e22cf9f6f29cbcb7fbe5413c8d80b9fed3872a73b0351bf28a5dae8f208f465d",
+      "bytes": 6777,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/GraphicsOverview.DD"
+    },
+    {
+      "path": "Doc/DolDocOverview.DD",
+      "sha256": "2a6f6d99d87a464072af5c9b563a9747ad0076dd1e6bee0c5f4cc48121090c43",
+      "bytes": 21199,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/DolDocOverview.DD"
+    },
+    {
+      "path": "Doc/RedSea.DD",
+      "sha256": "c0fa8041fbdcef979002aaa67cecec39d4a1ac8273c0e23e10814d8b3db2664b",
+      "bytes": 2130,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/RedSea.DD"
+    },
+    {
+      "path": "Doc/CompilerOverview.DD",
+      "sha256": "59a58631e1f6a9642483d9bbac1d2b2c29c1f3ff0bb856f0f7c4369199fd5c3c",
+      "bytes": 235,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/CompilerOverview.DD"
+    },
+    {
+      "path": "Doc/MemOverview.DD",
+      "sha256": "ba0993f529aa375916d421d1c925f74d6fb7d3cf9c7c1a9c3dfd26ecd123803e",
+      "bytes": 6989,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/MemOverview.DD"
+    },
+    {
+      "path": "Doc/WhyNotMore.DD",
+      "sha256": "718e2fe1f64126b4ed8989edb3702923d6d59748d6e056573c6dceefbb5154a5",
+      "bytes": 5615,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Doc/WhyNotMore.DD"
+    },
+    {
+      "path": "Kernel/KernelC.HH",
+      "sha256": "d96d3a3364e81724e0b43cc37a0733d85654779b231e145cc5eb889aa4ac2fca",
+      "bytes": 30664,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KernelC.HH"
+    },
+    {
+      "path": "Kernel/KTask.HC",
+      "sha256": "4ea967e45c3b82a81925a4aebd11e9daa8e6d1f4c5708ddee6124f3e502d4188",
+      "bytes": 13685,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KTask.HC"
+    },
+    {
+      "path": "Adam/Gr/GrDC.HC",
+      "sha256": "65bda5a55cf527f2482a2489269c1defa7aa2da2fe622ab28e0179756a586bf7",
+      "bytes": 11727,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrDC.HC"
+    },
+    {
+      "path": "Adam/Gr/GrBitMap.HC",
+      "sha256": "c34892e2b69e96b8b3d8728c8433a4f324b60e592a403c8db097709c129b2974",
+      "bytes": 51887,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrBitMap.HC"
+    },
+    {
+      "path": "Adam/Gr/GrPrimatives.HC",
+      "sha256": "53a03adae44cb88d1d621a0b3713e6637ba45e5194b878e63bc5ac732954c978",
+      "bytes": 42679,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrPrimatives.HC"
+    },
+    {
+      "path": "Adam/Snd/SndMusic.HC",
+      "sha256": "ac62c4b741c99e85d991f9162a69493bc6a8eb2d19b6da8c11c797b3ccdc2930",
+      "bytes": 4484,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Snd/SndMusic.HC"
+    },
+    {
+      "path": "Demo/Graphics/Box.HC",
+      "sha256": "43ea2bad24e51886412f762999f4e70bc606d7f1877ef945eb11443c1e027e0a",
+      "bytes": 1223,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Demo/Graphics/Box.HC"
+    },
+    {
+      "path": "Kernel/KMisc.HC",
+      "sha256": "d4f81f5b73f2d8f0116bcf8b50872fe20937cc7982fc2ec97f48dfbcd6ce46be",
+      "bytes": 6873,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KMisc.HC"
+    },
+    {
+      "path": "Kernel/Sched.HC",
+      "sha256": "57647b45027b11a4cbdedf8c4221450a714f740b4dcde52ed0224f8425fcb5fa",
+      "bytes": 7121,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/Sched.HC"
+    },
+    {
+      "path": "Kernel/BlkDev/DskFile.HC",
+      "sha256": "907f314c5d7a534ec36986e1c860c64402dcb22be93fcb43d85770c9d6c08f26",
+      "bytes": 3288,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/BlkDev/DskFile.HC"
+    },
+    {
+      "path": "Kernel/BlkDev/FileSysFAT.HC",
+      "sha256": "f8e8324933da42b3325c979ad786b0b119112f1e9d2632ed039e0f63f9c3b4ea",
+      "bytes": 25579,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/BlkDev/FileSysFAT.HC"
+    },
+    {
+      "path": "Kernel/BlkDev/FileSysRedSea.HC",
+      "sha256": "898c31c8c05911c46aefc66ce711fcf6abf18c83a12553c2423371a79564082a",
+      "bytes": 15382,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/BlkDev/FileSysRedSea.HC"
+    },
+    {
+      "path": "Compiler/CMain.HC",
+      "sha256": "318717f411327cdb5b4b4f2d4836e0e9ec69995f80403f0eb2b6d527b2a43647",
+      "bytes": 17161,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Compiler/CMain.HC"
+    },
+    {
+      "path": "Adam/InFile.HC",
+      "sha256": "5852a81f65fef41282c0762d60fb59b65da011d12cb647b171e02587599a1070",
+      "bytes": 3079,
+      "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/InFile.HC"
+    }
+  ],
+  "iso": {
+    "url": "https://templeos.org/Downloads/TempleOS.ISO",
+    "bytes": 17350656,
+    "sha256": "5d0fc944e5d89c155c0fc17c148646715bc1db6fa5750c0b913772cfec19ba26",
+    "observed_version": "5.03"
+  }
+}

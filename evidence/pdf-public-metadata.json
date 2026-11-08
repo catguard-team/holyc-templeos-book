@@ -1,0 +1,10 @@
+{
+  "change": "Corrected garbled Unicode title in PDF Info and XMP; added license-scope subject. Page content unchanged.",
+  "before_sha256": "068c6fb75cd88abce36eac3e5301b4aa522cb94570925a4c75e25bd2cea8b1c9",
+  "after_sha256": "25aa89fc96a1c77487d9b3706664ce7b50cbfd66d77a804815e801811b078ec0",
+  "pages": 80,
+  "all_page_render_digests_unchanged": true,
+  "all_page_text_and_links_unchanged": true,
+  "bookmarks_unchanged": true,
+  "title": "작은 성전을 짓는 코드 — HolyC · TempleOS"
+}

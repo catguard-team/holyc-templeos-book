@@ -1,0 +1,48 @@
+{
+  "acquired_on": "2026-11-08",
+  "files": [
+    {
+      "path": "archive/templeos/TempleOS.ISO",
+      "upstream_url": "https://templeos.org/Downloads/TempleOS.ISO",
+      "bytes": 17350656,
+      "sha256": "5d0fc944e5d89c155c0fc17c148646715bc1db6fa5750c0b913772cfec19ba26",
+      "license": "Public domain; upstream notice at https://templeos.org/"
+    },
+    {
+      "path": "archive/templeos/source-c26482b.tar.gz",
+      "upstream_url": "https://github.com/cia-foundation/TempleOS/tree/c26482bb6ad3f80106d28504ec5db3c6a360732c",
+      "bytes": 12340769,
+      "sha256": "2d095b82d85b5cd0c2c658a7c2d2461ea6453fbe7f984d0b2013709c79940e06",
+      "license": "Public domain; original files retain notices"
+    },
+    {
+      "path": "assets/fonts/NotoSansKR-Variable.ttf",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license": "SIL OFL 1.1"
+    }
+  ],
+  "qemu": {
+    "manifest": "archive/qemu/manifest.json",
+    "unmodified_tarball": true,
+    "signature_verified": true,
+    "signer_fingerprint": "CEACC9E15534EBABB82D3FA03353C9CEF108B584",
+    "verification_output": "evidence/qemu-source-signature.txt",
+    "parts_reassembled_and_full_sha256_verified": true
+  },
+  "markdown": {
+    "version": "3.9",
+    "location": "tools/vendor/markdown",
+    "upstream_url": "https://github.com/Python-Markdown/markdown/tree/3.9",
+    "license": "licenses/Python-Markdown-BSD.md"
+  },
+  "scope": "Upstream components retain their own terms; project CC0 does not relicense them."
+}

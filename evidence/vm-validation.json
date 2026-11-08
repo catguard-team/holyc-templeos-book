@@ -1,0 +1,223 @@
+{
+  "status": "passed",
+  "environment": {
+    "host": "macOS Apple Silicon",
+    "emulator": "QEMU 11.1.3, x86-64, TCG, pc, qemu64, 512MiB, 1 vCPU, VGA, IDE, no network",
+    "guest": "Original TempleOS 5.03",
+    "boot": "Official live ISO plus disposable synthetic FAT32 image"
+  },
+  "case_count": 24,
+  "source_manifest": "examples-manifest.json",
+  "cases": [
+    {
+      "name": "HELLO",
+      "completed": true,
+      "expected_text_checked": [
+        "Hello, TempleOS!",
+        "Peace be with you."
+      ]
+    },
+    {
+      "name": "VALUES",
+      "completed": true,
+      "expected_text_checked": [
+        "Candles: 7",
+        "Total: 21",
+        "Length: 2.50"
+      ]
+    },
+    {
+      "name": "TYPES",
+      "completed": true,
+      "expected_text_checked": [
+        "I64 bytes: 8",
+        "U8 bytes: 1",
+        "Integer: 3",
+        "Fraction: 3.5",
+        "Remainder: 1"
+      ]
+    },
+    {
+      "name": "CHOICE",
+      "completed": true,
+      "expected_text_checked": [
+        "The room has light.",
+        "Between one and seven."
+      ]
+    },
+    {
+      "name": "LOOPS",
+      "completed": true,
+      "expected_text_checked": [
+        "Step 7, total 28"
+      ]
+    },
+    {
+      "name": "FUNCS",
+      "completed": true,
+      "expected_text_checked": [
+        "Peace, friend.",
+        "Peace, Terry.",
+        "Square: 16"
+      ]
+    },
+    {
+      "name": "ARRAYS",
+      "completed": true,
+      "expected_text_checked": [
+        "All seeds: 17"
+      ]
+    },
+    {
+      "name": "STRINGS",
+      "completed": true,
+      "expected_text_checked": [
+        "Before: PEACE",
+        "Length: 5",
+        "First: P",
+        "After: pEACE"
+      ]
+    },
+    {
+      "name": "POINTER",
+      "completed": true,
+      "expected_text_checked": [
+        "Before: 3",
+        "After: 7"
+      ]
+    },
+    {
+      "name": "RECORD",
+      "completed": true,
+      "expected_text_checked": [
+        "Lamp: 120,80 lit=1"
+      ]
+    },
+    {
+      "name": "HEAP",
+      "completed": true,
+      "expected_text_checked": [
+        "Last: 9"
+      ]
+    },
+    {
+      "name": "SAVE",
+      "completed": true,
+      "expected_text_checked": [
+        "Requested bytes: 30"
+      ]
+    },
+    {
+      "name": "READ",
+      "completed": true,
+      "expected_text_checked": [
+        "Read bytes: 30",
+        "A small work, made with care."
+      ]
+    },
+    {
+      "name": "DICE",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "ANIMATE",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "TONE",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "DOC",
+      "completed": true,
+      "expected_text_checked": [
+        "A SMALL OFFERING",
+        "Make something with care.",
+        "Read. Change. Share."
+      ]
+    },
+    {
+      "name": "TASKS",
+      "completed": true,
+      "expected_text_checked": [
+        "Count 1",
+        "Count 2",
+        "Count 3",
+        "Count 4",
+        "Count 5"
+      ]
+    },
+    {
+      "name": "INPUT",
+      "completed": true,
+      "expected_text_checked": [
+        "Hello, Reader."
+      ]
+    },
+    {
+      "name": "SHAPES",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "PALETTE",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "LIGHT",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "MOVE",
+      "completed": true,
+      "expected_text_checked": []
+    },
+    {
+      "name": "GARDEN",
+      "completed": true,
+      "expected_text_checked": [
+        "GARDEN STATE: 119"
+      ]
+    }
+  ],
+  "dice_values": [
+    2,
+    5,
+    4,
+    5,
+    1,
+    2
+  ],
+  "garden_final_state": 119,
+  "garden_reset_state": 0,
+  "visual_cases": [
+    "SHAPES",
+    "PALETTE",
+    "LIGHT",
+    "MOVE",
+    "GARDEN"
+  ],
+  "limitations": [
+    "Tone example compiled and completed; PC-speaker audibility was not measured.",
+    "Windows, Linux host UI and UTM installation were documented from primary references, not executed.",
+    "Full hard-disk installer and reboot persistence were not exercised; tests ran from live ISO with a disposable writable FAT32 disk."
+  ],
+  "log": "vm-verified.log",
+  "log_sha256": "064ce4eff9a879abbb551b6e51b1cb1f8f58132692f55237ed7f7c6d4d97ad9b",
+  "fixes": [
+    "Function-local array entries assigned explicitly.",
+    "Local string initialized with StrCpy.",
+    "FileWrite return value is a filesystem allocation location, not a byte count.",
+    "CLI include terminated with a semicolon to complete compilation before input."
+  ],
+  "failed_exploration": [
+    "attempts/vm-keyboard-first-attempt.log",
+    "attempts/vm-first-native-driver.log",
+    "attempts/vm-intermediate-check.log"
+  ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "S01",
+    "title": "TempleOS Charter",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Charter.html",
+    "note": "헌장 원문 보존본. 신앙적 목표·16색·단순함·공개 소스의 근거."
+  },
+  {
+    "id": "S02",
+    "title": "Welcome to TempleOS",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Welcome.html",
+    "note": "제작 목적, 명령줄, 함수 실행, 개인 설정과 창 조작."
+  },
+  {
+    "id": "S03",
+    "title": "Frequently Asked Questions",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/FAQ.html",
+    "note": "그래픽 모드, 컴파일, 메모리, 압축, 네트워크의 설명."
+  },
+  {
+    "id": "S04",
+    "title": "HolyC",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HolyC.html",
+    "note": "자료형·기본 인수·연속 비교·함수 주소·연산자 문법."
+  },
+  {
+    "id": "S05",
+    "title": "Hello World",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HelloWorld.html",
+    "note": "첫 출력과 함수 호출의 원본 예시."
+  },
+  {
+    "id": "S06",
+    "title": "TempleOS 공식 보존 홈페이지",
+    "author": "원저자 Terry A. Davis / 현 보존 관리자 trapexit",
+    "url": "https://templeos.org/",
+    "note": "1969-2018 추모, 가족의 요청, 보존 자료의 public domain 안내."
+  },
+  {
+    "id": "S07",
+    "title": "Uses This: Terry Davis",
+    "author": "Terry Davis 인터뷰 / Uses This, 2014-05-20",
+    "url": "https://usesthis.com/interviews/terry.davis/",
+    "note": "본인의 신앙적 목적, 개발 환경, VM 사용에 대한 직접 인터뷰."
+  },
+  {
+    "id": "S08",
+    "title": "Requirements for TempleOS",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Requirements.html",
+    "note": "x86-64, 최소 512 MiB, VGA, PC 스피커, 장치 제약."
+  },
+  {
+    "id": "S09",
+    "title": "Installing TempleOS",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Install.html",
+    "note": "Live CD, 마운트, 설치 과정. 빈 실습 디스크와 실제 디스크를 구분."
+  },
+  {
+    "id": "S10",
+    "title": "QEMU System Emulation: Invocation",
+    "author": "QEMU 프로젝트",
+    "url": "https://www.qemu.org/docs/master/system/invocation.html",
+    "note": "PC 머신, TCG, 메모리, IDE 이미지, 부팅 장치, 네트워크 옵션."
+  },
+  {
+    "id": "S11",
+    "title": "UTM Documentation: System",
+    "author": "UTM 프로젝트",
+    "url": "https://docs.getutm.app/settings-qemu/system/",
+    "note": "호스트와 게스트 CPU 구조, 에뮬레이션·가상화, i440FX 설정."
+  },
+  {
+    "id": "S12",
+    "title": "Command Line Overview",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/CmdLineOverview.html",
+    "note": "Ed, #include, 경로와 드라이브, 파일 실행."
+  },
+  {
+    "id": "S13",
+    "title": "Help Index / Key Allocations",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/HelpIndex.html",
+    "note": "Esc 저장, Shift+Esc 취소, F1 도움말, 소스 탐색."
+  },
+  {
+    "id": "S14",
+    "title": "Memory Overview",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/MemOverview.html",
+    "note": "작업의 메모리와 코드 힙. 주소 공유에 대한 설명은 FAQ도 참조."
+  },
+  {
+    "id": "S15",
+    "title": "Kernel/KernelC.HH",
+    "author": "Terry A. Davis / 소스 보존 저장소",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/KernelC.HH",
+    "note": "FileRead·FileWrite·GetStr·GetChar·RandU32·Snd 등의 실제 선언."
+  },
+  {
+    "id": "S16",
+    "title": "RedSea and file utilities",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/RedSea.html",
+    "note": "자체 파일시스템. 파일 함수는 S15 선언과 구현을 함께 대조."
+  },
+  {
+    "id": "S17",
+    "title": "God / Oracle help",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/LiveHelp/God.html",
+    "note": "오라클 관련 기능의 길잡이. 종교적 해석은 저자의 주장으로 귀속."
+  },
+  {
+    "id": "S18",
+    "title": "Graphics Overview / GrDC.HC",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/GraphicsOverview.html",
+    "note": "그리기 구조와 컨텍스트. DCAlias·DCFill·DCDel 구현도 대조."
+  },
+  {
+    "id": "S19",
+    "title": "Adam/Gr/GrBitMap.HC",
+    "author": "Terry A. Davis / 소스 보존 저장소",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrBitMap.HC",
+    "note": "GrRect·GrPrint의 실제 인수와 동작."
+  },
+  {
+    "id": "S20",
+    "title": "Adam/Gr/GrPrimatives.HC",
+    "author": "Terry A. Davis / 소스 보존 저장소",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Adam/Gr/GrPrimatives.HC",
+    "note": "GrLine·GrCircle의 실제 선언과 구현. 원본 철자 유지."
+  },
+  {
+    "id": "S21",
+    "title": "Scheduler / task functions",
+    "author": "Terry A. Davis",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Kernel/Sched.HC",
+    "note": "협력적 작업 전환. Sleep·Yield는 원본 Kernel 선언 및 FAQ와 대조."
+  },
+  {
+    "id": "S22",
+    "title": "Sound / Psalmody",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Snd.html",
+    "note": "PC 스피커와 음악 도구. 실제 소스 Adam/Snd 및 Apps/Psalmody 참조."
+  },
+  {
+    "id": "S23",
+    "title": "DolDoc Overview",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/DolDocOverview.html",
+    "note": "문서의 서식·위젯·그래픽 자원과 편집 구조."
+  },
+  {
+    "id": "S24",
+    "title": "Sprite",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/Sprite.html",
+    "note": "스프라이트 편집과 문서 안의 자원."
+  },
+  {
+    "id": "S25",
+    "title": "Demo/Graphics/Box.HC",
+    "author": "Terry A. Davis / 소스 보존 저장소",
+    "url": "https://github.com/cia-foundation/TempleOS/blob/c26482bb6ad3f80106d28504ec5db3c6a360732c/Demo/Graphics/Box.HC",
+    "note": "3D 선과 행렬, draw_it 콜백을 읽는 후속 실습."
+  },
+  {
+    "id": "S26",
+    "title": "Compiler Overview",
+    "author": "Terry A. Davis",
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/CompilerOverview.html",
+    "note": "컴파일 과정과 원본 컴파일러의 길잡이."
+  },
+  {
+    "id": "S27",
+    "title": "ZealOS 프로젝트 README",
+    "author": "Zeal Operating System 프로젝트",
+    "url": "https://github.com/Zeal-Operating-System/ZealOS",
+    "note": "원본과 구분한 후속 프로젝트. 설명은 2026-11-08 열람 기준."
+  },
+  {
+    "id": "S28",
+    "title": "TempleOS Downloads",
+    "author": "TempleOS 보존 사이트",
+    "url": "https://templeos.org/Downloads/",
+    "note": "실습에 사용한 TempleOS.ISO의 배포 위치. 다운로드 해시는 별도 검증 기록에 보관."
+  }
+]

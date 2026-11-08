@@ -1,0 +1,28 @@
+{
+  "mac": {
+    "file_sha256": "fc519d0825a1cd95cb7771065a00f71fe1d409585a6ea1f79ab4f10c3993ec01",
+    "channels": 2,
+    "sample_bits": 16,
+    "sample_rate": 44100,
+    "payload_bytes": 131512,
+    "nonzero_samples": 65756,
+    "min": -24575,
+    "max": 24575,
+    "header_data_bytes": 0,
+    "header_size_complete": false,
+    "method": "QEMU PC-speaker WAV backend; signed PCM payload inspected. No physical-speaker listening test."
+  },
+  "linux": {
+    "file_sha256": "fa0f03d2900d5a94afd6c28badba569884c947fa3b090d7aa522e8577c67672d",
+    "channels": 2,
+    "sample_bits": 16,
+    "sample_rate": 44100,
+    "payload_bytes": 113704,
+    "nonzero_samples": 56852,
+    "min": -24320,
+    "max": 24831,
+    "header_data_bytes": 113704,
+    "header_size_complete": true,
+    "method": "QEMU PC-speaker WAV backend; signed PCM payload inspected. No physical-speaker listening test."
+  }
+}

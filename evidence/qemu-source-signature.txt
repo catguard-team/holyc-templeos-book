@@ -1,0 +1,12 @@
+[GNUPG:] NEWSIG
+gpg: Signature made Thu Oct 29 06:37:24 2026 KST
+gpg:                using RSA key CEACC9E15534EBABB82D3FA03353C9CEF108B584
+[GNUPG:] KEY_CONSIDERED CEACC9E15534EBABB82D3FA03353C9CEF108B584 0
+[GNUPG:] SIG_ID 3AWurwtl5Yf4IlEO2gvAaiXW9Ck 2026-10-28 1793223444
+[GNUPG:] GOODSIG 3353C9CEF108B584 Michael Roth <michael.roth@amd.com>
+gpg: Good signature from "Michael Roth <michael.roth@amd.com>" [unknown]
+[GNUPG:] VALIDSIG CEACC9E15534EBABB82D3FA03353C9CEF108B584 2026-10-28 1793223444 0 4 0 1 10 00 CEACC9E15534EBABB82D3FA03353C9CEF108B584
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+      CEACC9E15534EBABB82D3FA03353C9CEF108B584
